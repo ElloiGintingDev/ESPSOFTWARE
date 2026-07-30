@@ -16,7 +16,7 @@ if (!file(".git").exists()) {
     val errorText = """
         
         =====================[ ERROR ]=====================
-         The Leaf project directory is not a properly cloned Git repository.
+         The ESP Software project directory is not a properly cloned Git repository.
          
          In order to build Leaf from source you must clone
          the Leaf repository using Git, not download a code
@@ -33,7 +33,7 @@ if (!file(".git").exists()) {
     error(errorText)
 }
 
-rootProject.name = "leaf"
+rootProject.name = "ESPSOFTWARE"
 
 for (name in listOf("leaf-api", "leaf-server")) {
     val projName = name.lowercase(Locale.ENGLISH)
