@@ -1,4 +1,4 @@
-name: Build Leaf 26.2
+name: Build ESPSOFTWARE 26.2
 
 on:
   push:
